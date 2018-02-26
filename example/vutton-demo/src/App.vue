@@ -11,11 +11,13 @@
       :strokeColorDefault="'#42b983'"
       :strokeColorAni="'#51e0a0'"
       :duration="2"
+      :text="'hover it!'"
       />
   </div>
 </template>
 
 <script>
+// import Vutton from 'vutton'
 import Vutton from './components/Vutton'
 
 export default {
