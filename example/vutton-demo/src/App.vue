@@ -1,28 +1,41 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <div class="vutton-logo">
+      <img src="./assets/vutton.svg" alt="">
+    </div>
+    <Vutton 
+      :width="300" 
+      :height="80"
+      :strokeWidth="5"
+      :strokeDash="250"
+      :strokeColorDefault="'#42b983'"
+      :strokeColorAni="'#51e0a0'"
+      />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import Vutton from './components/Vutton'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Vutton
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.vutton-logo {
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
+
+.vutton {
+  margin: 0 auto;
+}
+.vutton__text {
+  font-size: 22px;
+  letter-spacing: 0.2rem;
+}
+
 </style>
