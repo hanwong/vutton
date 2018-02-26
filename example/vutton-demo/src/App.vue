@@ -10,6 +10,7 @@
       :strokeDash="250"
       :strokeColorDefault="'#42b983'"
       :strokeColorAni="'#51e0a0'"
+      :duration="2"
       />
   </div>
 </template>

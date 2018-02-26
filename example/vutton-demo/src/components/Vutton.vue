@@ -17,6 +17,7 @@ export default {
     strokeDash: { default: 200 },
     strokeColorDefault: { default: '#42b983' },
     strokeColorAni: { default: '#42b983' },
+    duration: { default: 1 }
   },
   mounted () {
     let vuttonAni
@@ -40,6 +41,10 @@ export default {
           rule.cssRules[1].style.strokeWidth = `${this.strokeWidth}px`
           rule.cssRules[1].style.stroke = this.strokeColorAni
         }
+
+        if (rule.selectorText === '.vutton:hover .vutton__border') {
+          rule.style.animationDuration = `${this.duration}s`
+        }
       })
     })
 
@@ -50,6 +55,8 @@ export default {
     
     let textStyles = document.querySelector('.vutton__text')
     textStyles.style.lineHeight = `${this.height}px`
+    
+
   }
 }
 </script>
