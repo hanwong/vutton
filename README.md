@@ -2,13 +2,11 @@
 <br>
 <br>
 <p align="center">
-  <img src="example/vutton-demo/src/assets/vutton.svg"/>
+  <img src="https://hanwong.github.io/vutton/example/vutton-demo/src/assets/vutton.svg"/>
 </p>
-<br>
-<br>
-<br>
+
 <p align="center">
-  <img style="width: 50%" src="example/vutton-demo/src/assets/vutton.gif">
+  <img style="width: 50%" src="https://hanwong.github.io/vutton/example/vutton-demo/src/assets/vutton.svg">
 </p>
 
 > Vuejs SVG Animation Button
