@@ -12,7 +12,7 @@
       strokeColorAni="#51e0a0"
       :duration="2"
       >
-      <div>hover it!</div>
+      <div>hover it</div>
     </Vutton>
   </div>
 </template>

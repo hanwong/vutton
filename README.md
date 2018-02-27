@@ -1,8 +1,14 @@
+<br>
+<br>
+<br>
 <p align="center">
   <img src="example/vutton-demo/src/assets/vutton.svg"/>
 </p>
+<br>
+<br>
+<br>
 <p align="center">
-  <img src="example/vutton-demo/src/assets/vutton.gif">
+  <img style="width: 50%" src="example/vutton-demo/src/assets/vutton.gif">
 </p>
 
 > Vuejs SVG Animation Button
