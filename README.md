@@ -72,7 +72,7 @@ export default {
 
 
 
-<style>
+<!-- <style>
 .vutton {
   position: relative;
   margin: 0 auto;
@@ -121,4 +121,4 @@ export default {
   -webkit-animation: 3s vutton__ani linear forwards infinite;
   animation: 3s vutton__ani linear forwards infinite;
 }
-</style>
+</style> -->
