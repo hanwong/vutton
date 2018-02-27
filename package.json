@@ -1,6 +1,6 @@
 {
   "name": "vutton",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/vutton.js",
   "directories": {
@@ -21,7 +21,11 @@
   "keywords": [
     "vutton",
     "button",
-    "Vue.js"
+    "svg",
+    "stoke",
+    "animation",
+    "vue",
+    "vuejs"
   ],
   "dependencies": {
     "vue": "^2.5.2"
