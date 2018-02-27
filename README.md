@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img style="width: 50%" src="https://hanwong.github.io/vutton/example/vutton-demo/src/assets/vutton.svg">
+  <img style="width: 50%" src="https://hanwong.github.io/vutton/example/vutton-demo/src/assets/vutton.gif">
 </p>
 
 > Vuejs SVG Animation Button
