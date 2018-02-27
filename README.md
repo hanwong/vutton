@@ -2,18 +2,20 @@
 <p align="center">
   <img src="https://hanwong.github.io/vutton/example/vutton-demo/src/assets/vutton.svg"/>
 </p>
-<br><br><br>
+<!-- <br><br><br> -->
 <p align="center">
-  <div class="vutton">
+  <img style="width: 50%" src="https://hanwong.github.io/vutton/example/vutton-demo/src/assets/vutton.gif">
+
+  <!-- <div class="vutton">
     <svg width="200" height="60" xmlns="http://www.w3.org/2000/svg">
       <rect class="vutton__border" width="200" height="60" />
     </svg>
     <div class="vutton__text">
       hover it!
     </div>
-  </div>
+  </div> -->
 </p>
-<br><br><br>
+<!-- <br><br><br> -->
 
 
 > Vuejs SVG Animation Button
