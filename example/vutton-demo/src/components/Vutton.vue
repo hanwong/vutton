@@ -3,7 +3,9 @@
     <svg :width="width" :height="height" xmlns="http://www.w3.org/2000/svg">
       <rect class="vutton__border" :width="width" :height="height" />
     </svg>
-    <div class="vutton__text">{{text}}</div>
+    <div class="vutton__text">
+      <slot></slot>
+    </div>
   </div>
 </template>
 
@@ -17,8 +19,7 @@ export default {
     strokeDash: { default: 200 },
     strokeColorDefault: { default: '#42b983' },
     strokeColorAni: { default: '#42b983' },
-    duration: { default: 1 },
-    text: { default: ''}
+    duration: { default: 1 }
   },
   mounted () {
     let vuttonAni

@@ -8,11 +8,12 @@
       :height="80"
       :strokeWidth="5"
       :strokeDash="250"
-      :strokeColorDefault="'#42b983'"
-      :strokeColorAni="'#51e0a0'"
+      strokeColorDefault="#42b983"
+      strokeColorAni="#51e0a0"
       :duration="2"
-      :text="'hover it!'"
-      />
+      >
+      <div>hover it!</div>
+    </Vutton>
   </div>
 </template>
 
