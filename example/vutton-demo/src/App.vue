@@ -1,8 +1,13 @@
 <template>
   <div id="app">
+    <br><br><br><br><br><br><br>
+    
     <div class="vutton-logo">
       <img src="./assets/vutton.svg" alt="">
     </div>
+    
+    <br><br><br><br><br><br><br>
+    
     <Vutton 
       :width="300" 
       :height="80"
@@ -12,14 +17,14 @@
       strokeColorAni="#51e0a0"
       :duration="2"
       >
-      <div>hover it</div>
+      <div>hover it!!!</div>
     </Vutton>
   </div>
 </template>
 
 <script>
-// import Vutton from 'vutton'
-import Vutton from './components/Vutton'
+import Vutton from 'vutton'
+// import Vutton from './components/Vutton'
 
 export default {
   name: 'App',
