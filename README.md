@@ -1,3 +1,4 @@
+
 <style>
 .vutton {
   position: relative;
@@ -50,13 +51,12 @@
 </style> 
 
 <br><br><br>
+
 <p align="center">
   <img src="https://hanwong.github.io/vutton/example/vutton-demo/src/assets/vutton.svg"/>
 </p>
+
 <br><br><br>
-<!-- <p align="center">
-  <img style="width: 50%" src="https://hanwong.github.io/vutton/example/vutton-demo/src/assets/vutton.gif">
-</p> -->
 
 
 <div class="vutton">
