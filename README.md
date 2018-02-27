@@ -2,7 +2,7 @@
   <img src="example/vutton-demo/src/assets/vutton.svg"/>
 </p>
 <p align="center">
-  <video src="example/vutton-demo/src/assets/vutton.mov" autoplay></video>
+  <img src="example/vutton-demo/src/assets/vutton.gif">
 </p>
 
 > Vuejs SVG Animation Button
