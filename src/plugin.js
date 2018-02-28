@@ -1,4 +1,4 @@
-import Vutton from '../example/vutton-demo/src/components/Vutton.vue';
+const Vutton = require('../example/vutton-demo/src/components/Vutton.vue'); 
 
 module.exports = { 
   install: function (Vue, options) { 
