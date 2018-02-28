@@ -32,14 +32,14 @@ var commonConfig = {
 
 module.exports = [ 
   // 설정 1: 브라우저 환경에서 CDN으로 사용하기 위해 
-  // merge(commonConfig, {
-  //   entry: path.resolve(__dirname + '/src/plugin.js'), 
-  //   output: {
-  //     filename: 'vutton.min.js', 
-  //     libraryTarget: 'window', 
-  //     library: 'YoutubeVue' 
-  //   } 
-  // }), 
+  merge(commonConfig, {
+    entry: path.resolve(__dirname + '/src/plugin.js'), 
+    output: {
+      filename: 'vutton.min.js', 
+      libraryTarget: 'window', 
+      library: 'vutton' 
+    } 
+  }), 
   // 설정 2: npm install로 참조하여 사용하기 위해 
   merge(commonConfig, {
     entry: path.resolve(__dirname + '/example/vutton-demo/src/components/Vutton.vue'), 
