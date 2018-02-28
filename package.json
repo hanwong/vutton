@@ -1,6 +1,6 @@
 {
   "name": "vutton",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Vuejs SVG Animation Button",
   "main": "dist/vutton.js",
   "directories": {
