@@ -37,7 +37,7 @@ module.exports = [
     output: {
       filename: 'vutton.min.js', 
       libraryTarget: 'window', 
-      library: 'vutton' 
+      library: 'Vutton' 
     } 
   }), 
   // 설정 2: npm install로 참조하여 사용하기 위해 
